@@ -172,7 +172,6 @@ Rectangle {
                     color: "#3D3D3D"
                     z: 0
 
-                    // Надписи всегда видимы
                     Label {
                         text: "On"
                         font.pixelSize: 20
@@ -287,15 +286,13 @@ Rectangle {
                         var ctx = getContext("2d")
                         ctx.clearRect(0, 0, width, height)
 
-                        // Рисуем прямоугольник (основание домика)
                         ctx.fillStyle = "#CCCCCC"
                         ctx.fillRect(7, 14, 23, 17)
 
-                        // Рисуем треугольник (крышу)
                         ctx.beginPath()
-                        ctx.moveTo(18.5, 0)         // Верхняя точка
-                        ctx.lineTo(34.5215, 18.75)  // Правая точка
-                        ctx.lineTo(2.47853, 18.75)  // Левая точка
+                        ctx.moveTo(18.5, 0)
+                        ctx.lineTo(34.5215, 18.75)
+                        ctx.lineTo(2.47853, 18.75)
                         ctx.closePath()
                         ctx.fill()
                     }
