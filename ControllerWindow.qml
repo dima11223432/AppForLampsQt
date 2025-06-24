@@ -403,6 +403,7 @@ Rectangle {
             anchors.leftMargin: 226
         }
 
+        // хотел сделать colorpicker, но получилось очень коряво
     Window{
         id:secondWindow
             width: 400
@@ -418,7 +419,6 @@ Rectangle {
                 border.color: "black"
                 border.width: 1
 
-                // Градиент для цветового круга
                 ConicalGradient {
                     anchors.fill: parent
                     angle: 0
@@ -433,7 +433,6 @@ Rectangle {
                     }
                 }
 
-                // Индикатор выбранного цвета
                 Rectangle {
                     id: selector
                     width: 20
@@ -454,7 +453,6 @@ Rectangle {
                 MouseArea {
                     anchors.fill: parent
                     onClicked: {
-                        // Вычисляем угол клика относительно центра
                         var centerX = colorCircle.width / 2
                         var centerY = colorCircle.height / 2
                         var dx = mouseX - centerX
@@ -462,24 +460,18 @@ Rectangle {
                         var angle = Math.atan2(dy, dx) * 180 / Math.PI
                         if (angle < 0) angle += 360
 
-                        // Устанавливаем позицию селектора
                         selector.transform[0].angle = angle
-
-                        // Вычисляем цвет
                         var hue = angle / 360
                         var color = Qt.hsla(hue, 1.0, 0.5, 1.0)
 
-                        // Выводим цвет в консоль
                         console.log("Выбран цвет: " + color +
                                    " (Hue: " + Math.round(angle) + "°)")
 
-                        // Показываем выбранный цвет
                         selector.color = color
                     }
                 }
             }
 
-            // Отображение выбранного цвета
             Rectangle {
                 width: 100
                 height: 50
