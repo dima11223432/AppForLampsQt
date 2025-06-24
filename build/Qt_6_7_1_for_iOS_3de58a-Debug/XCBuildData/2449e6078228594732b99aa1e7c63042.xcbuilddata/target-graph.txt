@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'LampApp' in project 'LampApp'
+➜ Explicit dependency on target 'Qt Preprocess' in project 'LampApp'
+Target 'Qt Preprocess' in project 'LampApp' (no dependencies)

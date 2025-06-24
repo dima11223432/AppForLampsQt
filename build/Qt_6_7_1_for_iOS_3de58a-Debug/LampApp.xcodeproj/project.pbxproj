@@ -1,0 +1,3391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/dm_sfr/Desktop/project/LampApp/build/Qt_6_7_1_for_iOS_3de58a-Debug -f LampApp.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		E9DDD6311F1037A92B2EC5E7 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/bulb.cpp";
+			name = "bulb.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A59263367F9EA95F1A5905A3 = {
+			fileRef = "E9DDD6311F1037A92B2EC5E7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DC58A54BD8FBBCEF5238EF11 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7C9219DCB04D97DE00A4E019 = {
+			fileRef = "DC58A54BD8FBBCEF5238EF11";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1E2FAEC6F31C48258DA4E317 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/widget.cpp";
+			name = "widget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4608D44B599EA333F5FEA47E = {
+			fileRef = "1E2FAEC6F31C48258DA4E317";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		511439E5378A634EDBD8C983 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/build/Qt_6_7_1_for_iOS_3de58a-Debug/lampapp_plugin_import.cpp";
+			name = "lampapp_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		203D6F3AC703D4DE133377E0 = {
+			fileRef = "511439E5378A634EDBD8C983";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		982AC5762BCA83965413E1AE = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/build/Qt_6_7_1_for_iOS_3de58a-Debug/lampapp_qml_plugin_import.cpp";
+			name = "lampapp_qml_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FDFE372DA44A3878848A1EAC = {
+			fileRef = "982AC5762BCA83965413E1AE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1CF5DB8EDE5E419120834E02 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/build/Qt_6_7_1_for_iOS_3de58a-Debug/qrc_qml.cpp";
+			name = "qrc_qml.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		580DBB642243CCB33CA69BB4 = {
+			fileRef = "1CF5DB8EDE5E419120834E02";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B2AB3C8537284BD1B5A2B044 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/build/Qt_6_7_1_for_iOS_3de58a-Debug/moc_widget.cpp";
+			name = "moc_widget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AEE244C11ABC233371C8D8C3 = {
+			fileRef = "B2AB3C8537284BD1B5A2B044";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8183EBE8A33700DD497BC5A2 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/bulb.h";
+			name = "bulb.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		50C2D85A6E7CEE03BD391724 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/widget.h";
+			name = "widget.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C64C200701ECDF33F52D2739 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/qml.qrc";
+			name = "qml.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		42BB05AC9DA1D8B5FE176138 = {
+			fileRef = "C64C200701ECDF33F52D2739";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		90E947C6A43DCCF2D6FAB5A4 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/build/Qt_6_7_1_for_iOS_3de58a-Debug/LampApp.pro";
+			name = "LampApp.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		173E2CA01E477674828B3B44 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/build/Qt_6_7_1_for_iOS_3de58a-Debug/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		8DBBE8012896A05362602BD9 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/LampApp.pro";
+			name = "LampApp.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"C5C31264768DCC05446CDDCF");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		C5C31264768DCC05446CDDCF = {
+			isa = PBXGroup;
+			children = (
+				"C0B9B3D4A13D0986471DFD1A");
+			name = "build";
+			sourceTree = "<group>";
+		};
+		C0B9B3D4A13D0986471DFD1A = {
+			isa = PBXGroup;
+			children = (
+				"511439E5378A634EDBD8C983",
+				"982AC5762BCA83965413E1AE",
+				"1CF5DB8EDE5E419120834E02",
+				"B2AB3C8537284BD1B5A2B044");
+			name = "Qt_6_7_1_for_iOS_3de58a-Debug";
+			sourceTree = "<group>";
+		};
+		848FDE7AF9516BAF92CAEB93 = {
+			isa = PBXGroup;
+			children = (
+				"2F720273FF573EC308562E98");
+			name = "build";
+			sourceTree = "<group>";
+		};
+		2F720273FF573EC308562E98 = {
+			isa = PBXGroup;
+			children = (
+				"90E947C6A43DCCF2D6FAB5A4",
+				"173E2CA01E477674828B3B44");
+			name = "Qt_6_7_1_for_iOS_3de58a-Debug";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"C64C200701ECDF33F52D2739");
+			name = "Resources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"E9DDD6311F1037A92B2EC5E7",
+				"DC58A54BD8FBBCEF5238EF11",
+				"1E2FAEC6F31C48258DA4E317",
+				"8183EBE8A33700DD497BC5A2",
+				"50C2D85A6E7CEE03BD391724");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"848FDE7AF9516BAF92CAEB93",
+				"8DBBE8012896A05362602BD9");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			inputPaths = (
+				"../../qml.qrc",
+				"../../qml.qrc",
+				"../../widget.h");
+			outputPaths = (
+				"qrc_qml.cpp",
+				"moc_widget.cpp");
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/dm_sfr/Desktop/project/LampApp/build/Qt_6_7_1_for_iOS_3de58a-Debug -f LampApp.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+			alwaysOutOfDate = "1";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"A59263367F9EA95F1A5905A3",
+				"7C9219DCB04D97DE00A4E019",
+				"4608D44B599EA333F5FEA47E",
+				"203D6F3AC703D4DE133377E0",
+				"FDFE372DA44A3878848A1EAC",
+				"580DBB642243CCB33CA69BB4",
+				"AEE244C11ABC233371C8D8C3");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		CFD1D6B0948E6FE268FC0B58 = {
+			isa = PBXFileReference;
+			name = "qrc_qpdf_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Gui_resources_1/.qt/rcc/qrc_qpdf_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7E85C5C75D1C69E5EACEF0D2 = {
+			fileRef = "CFD1D6B0948E6FE268FC0B58";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		278A204471EA08771E8CFD1A = {
+			isa = PBXFileReference;
+			name = "qrc_gui_shaders_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Gui_resources_2/.qt/rcc/qrc_gui_shaders_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		DC587DBCBED6A7256F7B8C76 = {
+			fileRef = "278A204471EA08771E8CFD1A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9CD2F776D49F84809BEB886E = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F3B7475E5E87E96763126FF0 = {
+			fileRef = "9CD2F776D49F84809BEB886E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C44131FDCFEF4396B9EA2BA = {
+			isa = PBXFileReference;
+			name = "AudioToolbox.framework";
+			path = "/System/Library/Frameworks/AudioToolbox.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		4EB68D0C8182BCE33529C421 = {
+			fileRef = "3C44131FDCFEF4396B9EA2BA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5F9A4B2B3FF5EC87C57CF6B4 = {
+			isa = PBXFileReference;
+			name = "UniformTypeIdentifiers.framework";
+			path = "/System/Library/Frameworks/UniformTypeIdentifiers.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F30795E5207D73289814C47C = {
+			fileRef = "5F9A4B2B3FF5EC87C57CF6B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BD5FCA7D802D96BED4D98BB2 = {
+			isa = PBXFileReference;
+			name = "Photos.framework";
+			path = "/System/Library/Frameworks/Photos.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		608694C2F85C903B08FF61AE = {
+			fileRef = "BD5FCA7D802D96BED4D98BB2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		773F9466C10A52E589AA8CF9 = {
+			isa = PBXFileReference;
+			name = "qsvgicon";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/iconengines/libqsvgicon$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		736E5A58FD0916961D396119 = {
+			fileRef = "773F9466C10A52E589AA8CF9";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CDCA4AF8CA2ABB2B21AE713A = {
+			isa = PBXFileReference;
+			name = "qgif";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/imageformats/libqgif$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2A47954A44F8273498F4F80F = {
+			fileRef = "CDCA4AF8CA2ABB2B21AE713A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EE34D56E20EE9D3D4ADED5D0 = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		309B1F6EB1D13CA6EC64C069 = {
+			fileRef = "EE34D56E20EE9D3D4ADED5D0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E2798658B8E3A24ED1C17124 = {
+			isa = PBXFileReference;
+			name = "qjpeg";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/imageformats/libqjpeg$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5F756ED577065D24347E59EE = {
+			fileRef = "E2798658B8E3A24ED1C17124";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		61F205CB625B18F58A43F62E = {
+			isa = PBXFileReference;
+			name = "libQt6BundledLibjpeg_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledLibjpeg_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BEC8A871CECA2E707811A34A = {
+			fileRef = "61F205CB625B18F58A43F62E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		750CD29EC84FD7D85EE8C777 = {
+			isa = PBXFileReference;
+			name = "qsvg";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/imageformats/libqsvg$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BF711C2F4BAAA6118BB7DE47 = {
+			fileRef = "750CD29EC84FD7D85EE8C777";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EED8E3BAAB19C470ECD5746D = {
+			isa = PBXFileReference;
+			name = "Qt6Svg";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6Svg$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BA5ED6E1C1E48263F72B163B = {
+			fileRef = "EED8E3BAAB19C470ECD5746D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D9FCA98AE20281919A64BB3A = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQml_Base_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Base/objects-Debug/Qml_resources_1/.qt/rcc/qrc_qmake_QtQml_Base_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6D62060DABB90ADDAF3E03FD = {
+			fileRef = "D9FCA98AE20281919A64BB3A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9253D6251E1D7890E034A5F2 = {
+			isa = PBXFileReference;
+			name = "qrc_qmlMetaQmldir_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Qml_resources_2/.qt/rcc/qrc_qmlMetaQmldir_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		FE2F4688797B58103C6F80D1 = {
+			fileRef = "9253D6251E1D7890E034A5F2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		042622BA7ED1BDBD7D2AF59A = {
+			isa = PBXFileReference;
+			name = "qmldbg_debugger";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_debugger$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C92A7D79F686F197D27F7921 = {
+			fileRef = "042622BA7ED1BDBD7D2AF59A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0FAE0CE8BE1E8BE2D2E90ADF = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/objects-Debug/Quick_resources_1/.qt/rcc/qrc_qmake_QtQuick_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0431F0D281439D564A357684 = {
+			fileRef = "0FAE0CE8BE1E8BE2D2E90ADF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E5EE46EBC567E8D3B0008091 = {
+			isa = PBXFileReference;
+			name = "qrc_scenegraph_shaders_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_2/.qt/rcc/qrc_scenegraph_shaders_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B25B7B8828744079F581F803 = {
+			fileRef = "E5EE46EBC567E8D3B0008091";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		246CDB156A4D76D8A8CD3BAC = {
+			isa = PBXFileReference;
+			name = "qrc_scenegraph_curve_shaders_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_3/.qt/rcc/qrc_scenegraph_curve_shaders_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E2682DCDBD115C37C75ACD9D = {
+			fileRef = "246CDB156A4D76D8A8CD3BAC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A14FC8A0354969AB691F8137 = {
+			isa = PBXFileReference;
+			name = "qrc_scenegraph_curve_shaders_derivatives_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_4/.qt/rcc/qrc_scenegraph_curve_shaders_derivatives_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		698A27566DA573772C768FC6 = {
+			fileRef = "A14FC8A0354969AB691F8137";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4DFEC7CE9DEE05C2064CE06E = {
+			isa = PBXFileReference;
+			name = "qrc_scenegraph_curve_shaders_lg_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_5/.qt/rcc/qrc_scenegraph_curve_shaders_lg_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		981DA83DB58626422C5D5209 = {
+			fileRef = "4DFEC7CE9DEE05C2064CE06E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6CEEB80F7D627ED8E9519B84 = {
+			isa = PBXFileReference;
+			name = "qrc_scenegraph_curve_shaders_lg_derivatives_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_6/.qt/rcc/qrc_scenegraph_curve_shaders_lg_derivatives_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7EA309943B2938E417A61690 = {
+			fileRef = "6CEEB80F7D627ED8E9519B84";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F0068236FD3571EC9B9A1277 = {
+			isa = PBXFileReference;
+			name = "qrc_scenegraph_curve_shaders_rg_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_7/.qt/rcc/qrc_scenegraph_curve_shaders_rg_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		452D0EBA9C617BB248590572 = {
+			fileRef = "F0068236FD3571EC9B9A1277";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		177B481494CA06C98DFD5E77 = {
+			isa = PBXFileReference;
+			name = "qrc_scenegraph_curve_shaders_rg_derivatives_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_8/.qt/rcc/qrc_scenegraph_curve_shaders_rg_derivatives_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		562F32671D5A2956869FA007 = {
+			fileRef = "177B481494CA06C98DFD5E77";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B867B3BFFE135A5FC4850E64 = {
+			isa = PBXFileReference;
+			name = "qrc_scenegraph_curve_shaders_cg_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_9/.qt/rcc/qrc_scenegraph_curve_shaders_cg_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1B715F33DE3CB12129F55FA4 = {
+			fileRef = "B867B3BFFE135A5FC4850E64";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A89A6682CAFE5F6D6AF3AACF = {
+			isa = PBXFileReference;
+			name = "qrc_scenegraph_curve_shaders_cg_derivatives_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_10/.qt/rcc/qrc_scenegraph_curve_shaders_cg_derivatives_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		04F2C397E61A1714CBDCD701 = {
+			fileRef = "A89A6682CAFE5F6D6AF3AACF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D100B815753F11DF4974173E = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQml_Models_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Models/objects-Debug/QmlModels_resources_1/.qt/rcc/qrc_qmake_QtQml_Models_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F06EA3360ECFBB1E61E3D8DA = {
+			fileRef = "D100B815753F11DF4974173E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		568038472A63EF965F50BCF8 = {
+			isa = PBXFileReference;
+			name = "qmldbg_inspector";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_inspector$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C0323534BF872EC6779CD114 = {
+			fileRef = "568038472A63EF965F50BCF8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		215F00EB68BC70BB4B1BB0BD = {
+			isa = PBXFileReference;
+			name = "qmldbg_local";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_local$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D6A69B1FC713F3163B517B6A = {
+			fileRef = "215F00EB68BC70BB4B1BB0BD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DFC6BFEBFB0C98B057634DD4 = {
+			isa = PBXFileReference;
+			name = "qmldbg_messages";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_messages$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B5CA182A1C694C0616BBDD50 = {
+			fileRef = "DFC6BFEBFB0C98B057634DD4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A0F64270133012236013E788 = {
+			isa = PBXFileReference;
+			name = "qmldbg_native";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_native$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A15B95E3E02BEEB13E8B71B6 = {
+			fileRef = "A0F64270133012236013E788";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6802379485C56D1E0ACFFD8 = {
+			isa = PBXFileReference;
+			name = "qmldbg_nativedebugger";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_nativedebugger$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1BB1D1CE8BB16AB0D7CDE619 = {
+			fileRef = "F6802379485C56D1E0ACFFD8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9902672FE11C127770490388 = {
+			isa = PBXFileReference;
+			name = "qmldbg_preview";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_preview$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B25A2FA04CCC315831A5CF72 = {
+			fileRef = "9902672FE11C127770490388";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9FC6AAE511C680BD5D19AD3E = {
+			isa = PBXFileReference;
+			name = "qmldbg_profiler";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_profiler$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1C9A0455CB567D809294488A = {
+			fileRef = "9FC6AAE511C680BD5D19AD3E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6A3EECEEAFC188B8E3DB6C13 = {
+			isa = PBXFileReference;
+			name = "qmldbg_quick3dprofiler";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_quick3dprofiler$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8989B2490601DD0AB5B3DF8F = {
+			fileRef = "6A3EECEEAFC188B8E3DB6C13";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0011EEBF66D775C6C1BCA323 = {
+			isa = PBXFileReference;
+			name = "Qt6Quick3DUtils";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6Quick3DUtils$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		27BD011D2DAAA7A0207C5A6E = {
+			fileRef = "0011EEBF66D775C6C1BCA323";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C100AC9A3392C50DB1D6D826 = {
+			isa = PBXFileReference;
+			name = "qmldbg_quickprofiler";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_quickprofiler$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5AB629A7726DA67660123DAA = {
+			fileRef = "C100AC9A3392C50DB1D6D826";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E1C17273A60B33081BC1C3CD = {
+			isa = PBXFileReference;
+			name = "qmldbg_server";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_server$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5E864F54862ABD7A57E4F3E1 = {
+			fileRef = "E1C17273A60B33081BC1C3CD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EFEF2AFAA2AD2E483A2BFB96 = {
+			isa = PBXFileReference;
+			name = "Qt6PacketProtocol";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6PacketProtocol$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A18BAE63AE63A907399ADA37 = {
+			fileRef = "EFEF2AFAA2AD2E483A2BFB96";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		222428561AE1DA707D89C101 = {
+			isa = PBXFileReference;
+			name = "qmldbg_tcp";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling/libqmldbg_tcp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		626A91A4EB986B9970A29430 = {
+			fileRef = "222428561AE1DA707D89C101";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1075E503D4433BAF6BAB1D0 = {
+			isa = PBXFileReference;
+			name = "qscnetworkreachability";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/networkinformation/libqscnetworkreachability$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		905E5F4E702F7DAF3A7A6DAE = {
+			fileRef = "A1075E503D4433BAF6BAB1D0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		608593C254344176B159EFC6 = {
+			isa = PBXFileReference;
+			name = "qsecuretransportbackend";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/plugins/tls/libqsecuretransportbackend$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		31F3955D3B301AA0C2F4834D = {
+			fileRef = "608593C254344176B159EFC6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EB558E8F80726D3DE108047 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickWidgets";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickWidgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0A7FE4521BA85B7760DA649F = {
+			fileRef = "7EB558E8F80726D3DE108047";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		22BDAF82AAEF9F4CDA08CC77 = {
+			isa = PBXFileReference;
+			name = "qrc_qstyle_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_1/.qt/rcc/qrc_qstyle_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8DC1C2E217DC576938AE2EC5 = {
+			fileRef = "22BDAF82AAEF9F4CDA08CC77";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D6C59ADC67150579A3CBF618 = {
+			isa = PBXFileReference;
+			name = "qrc_qstyle1_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_2/.qt/rcc/qrc_qstyle1_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7D99EEF371EF6E7920C5E634 = {
+			fileRef = "D6C59ADC67150579A3CBF618";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A719385A9AC165154E5C2EC8 = {
+			isa = PBXFileReference;
+			name = "qrc_qstyle_fusion_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_3/.qt/rcc/qrc_qstyle_fusion_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		06682E122B016A9EA4FAF236 = {
+			fileRef = "A719385A9AC165154E5C2EC8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2D94D17FF6FFA9A44A225A90 = {
+			isa = PBXFileReference;
+			name = "qrc_qmessagebox_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_4/.qt/rcc/qrc_qmessagebox_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		636D63EA9D105E0033564824 = {
+			fileRef = "2D94D17FF6FFA9A44A225A90";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D420B130B6B285B240E24875 = {
+			isa = PBXFileReference;
+			name = "Qt6Widgets";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6Widgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8F540FDACD5046E1116DFE7E = {
+			fileRef = "D420B130B6B285B240E24875";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6102D9788FD80CF2453B88D1 = {
+			isa = PBXFileReference;
+			name = "Qt6Concurrent";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6Concurrent$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E82B6824DBAF8C5688E8989B = {
+			fileRef = "6102D9788FD80CF2453B88D1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4EDD4A555396AFDF703DD0E1 = {
+			isa = PBXFileReference;
+			name = "qtquick2plugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/libqtquick2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F880B9611CDC7F7C150AFF93 = {
+			fileRef = "4EDD4A555396AFDF703DD0E1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2261DE4B10C2FFF18CAAAEF2 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQml_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/objects-Debug/QmlMeta_resources_1/.qt/rcc/qrc_qmake_QtQml_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5F2F1F453865F601C850A765 = {
+			fileRef = "2261DE4B10C2FFF18CAAAEF2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		65E11CEEE0341858D551044B = {
+			isa = PBXFileReference;
+			name = "qmlmetaplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/libqmlmetaplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A4AE72D9D0EEA975D1888539 = {
+			fileRef = "65E11CEEE0341858D551044B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8F3F51F9369FE8E3555B6ED4 = {
+			isa = PBXFileReference;
+			name = "qmlplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Base/libqmlplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		25F4FEFBF0815DF9182ECA3D = {
+			fileRef = "8F3F51F9369FE8E3555B6ED4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		91AFE63FDCF8FE9B59743207 = {
+			isa = PBXFileReference;
+			name = "modelsplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Models/libmodelsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F38D0AF5475F70DCB013B226 = {
+			fileRef = "91AFE63FDCF8FE9B59743207";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		07D88891CBAF70198B9EA101 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQml_WorkerScript_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/WorkerScript/objects-Debug/QmlWorkerScript_resources_1/.qt/rcc/qrc_qmake_QtQml_WorkerScript_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0B7D9BF804963B1AB7EB01A0 = {
+			fileRef = "07D88891CBAF70198B9EA101";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6DB33CD186FB1D99F3C90673 = {
+			isa = PBXFileReference;
+			name = "workerscriptplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/WorkerScript/libworkerscriptplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3C60B20A20E8F7B9729286ED = {
+			fileRef = "6DB33CD186FB1D99F3C90673";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		637EBB7A5A48197983925771 = {
+			isa = PBXFileReference;
+			name = "Qt6QmlWorkerScript";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QmlWorkerScript$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		49C14751A90C91F51603855C = {
+			fileRef = "637EBB7A5A48197983925771";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		12C80C9656EC453A56142679 = {
+			isa = PBXFileReference;
+			name = "qrc_indirectBasic_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/qtquickcontrols2plugin_resources_1/.qt/rcc/qrc_indirectBasic_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0C982E6BEC5932D20EA38342 = {
+			fileRef = "12C80C9656EC453A56142679";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8FE963F22529136AAAAFB0E2 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_impl_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/impl/objects-Debug/QuickControls2Impl_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_impl_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B0E47FE3772D5CF6FFC0E62C = {
+			fileRef = "8FE963F22529136AAAAFB0E2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DCA45B801679225A29B2F1A5 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/objects-Debug/QuickControls2_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3F4D6B886DB150CFAF3FB3EA = {
+			fileRef = "DCA45B801679225A29B2F1A5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AFD3F209762077058CC923F8 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Templates_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Templates/objects-Debug/QuickTemplates2_resources_1/.qt/rcc/qrc_qmake_QtQuick_Templates_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C7D7144EA1F30EB917BE8ADE = {
+			fileRef = "AFD3F209762077058CC923F8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DA3FE04656C71C0C7924FC4 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2plugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/libqtquickcontrols2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		DAFE62B0EAE1C99CDB5BEE73 = {
+			fileRef = "8DA3FE04656C71C0C7924FC4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		45F5583184DCB971A7EF30B1 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Fusion_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/objects-Debug/QuickControls2Fusion_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Fusion_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		CF631DA8DA0F9B769216D7D6 = {
+			fileRef = "45F5583184DCB971A7EF30B1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC16D0EFB8AC172CBE0D376E = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2Fusion_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/objects-Debug/QuickControls2Fusion_resources_2/.qt/rcc/qrc_QuickControls2Fusion_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7CD5FD1FE6B227A5CFD63FFC = {
+			fileRef = "CC16D0EFB8AC172CBE0D376E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C82B3771AF362B31C2A22C3 = {
+			isa = PBXFileReference;
+			name = "qrc_qtquickcontrols2fusionstyle_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Fusion_resources_3/.qt/rcc/qrc_qtquickcontrols2fusionstyle_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		18B52822538141E125807279 = {
+			fileRef = "0C82B3771AF362B31C2A22C3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3252BE552F3A692107B9931F = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Fusion_impl_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/impl/objects-Debug/QuickControls2FusionStyleImpl_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Fusion_impl_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3C317EE07BA833EC61643859 = {
+			fileRef = "3252BE552F3A692107B9931F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4E8B9E508E30E769051FABBE = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2FusionStyleImpl_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/impl/objects-Debug/QuickControls2FusionStyleImpl_resources_2/.qt/rcc/qrc_QuickControls2FusionStyleImpl_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7C29B7D25A7B1F8B485794CC = {
+			fileRef = "4E8B9E508E30E769051FABBE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C25C61506058FFA86DDBD8CE = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2fusionstyleplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/libqtquickcontrols2fusionstyleplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1DDBAA1677DD2B8E615D1DD9 = {
+			fileRef = "C25C61506058FFA86DDBD8CE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		776CB358EBC14BA62D48B983 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2Fusion";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2Fusion$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		DE5EA6D84CBD4ABA62D6B876 = {
+			fileRef = "776CB358EBC14BA62D48B983";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BAC80A0355FFE14468D98E9 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Material_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/objects-Debug/QuickControls2Material_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Material_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		483FC984D9F61A616464B39E = {
+			fileRef = "7BAC80A0355FFE14468D98E9";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1AEECD5ECA677EFFB5AF9D10 = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2Material_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/objects-Debug/QuickControls2Material_resources_2/.qt/rcc/qrc_QuickControls2Material_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C0B49FC61C485BA63CDD252F = {
+			fileRef = "1AEECD5ECA677EFFB5AF9D10";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E48AB072A4A1F672184ACB1F = {
+			isa = PBXFileReference;
+			name = "qrc_qtquickcontrols2materialstyle_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Material_resources_3/.qt/rcc/qrc_qtquickcontrols2materialstyle_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5F80F974D138FCA90B195269 = {
+			fileRef = "E48AB072A4A1F672184ACB1F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B5CE97BC0697EBC1EA9773BF = {
+			isa = PBXFileReference;
+			name = "qrc_qtquickcontrols2materialstyle_shaders_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Material_resources_4/.qt/rcc/qrc_qtquickcontrols2materialstyle_shaders_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2BC9A5CC119D3CEDA2639E95 = {
+			fileRef = "B5CE97BC0697EBC1EA9773BF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		51939CCA95EFC6881A5693B6 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Material_impl_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/impl/objects-Debug/QuickControls2MaterialStyleImpl_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Material_impl_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		927C43937BBC4486FE169B50 = {
+			fileRef = "51939CCA95EFC6881A5693B6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		30078A1D88C58126EA88DC22 = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2MaterialStyleImpl_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/impl/objects-Debug/QuickControls2MaterialStyleImpl_resources_2/.qt/rcc/qrc_QuickControls2MaterialStyleImpl_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D5746570F361EA2BA2ECA6A0 = {
+			fileRef = "30078A1D88C58126EA88DC22";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2CFF052C67133E879BE3D667 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2materialstyleplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/libqtquickcontrols2materialstyleplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D09440FB3BF5A30C3B8724AB = {
+			fileRef = "2CFF052C67133E879BE3D667";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		066A9869FBA6BC6E2C8BCD95 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2Material";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2Material$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		DEEBEF93EA38A1265BB1F6FD = {
+			fileRef = "066A9869FBA6BC6E2C8BCD95";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		33E832CDC46AD5E59D45ADF0 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Imagine_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/objects-Debug/QuickControls2Imagine_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Imagine_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		17DD41DE01C9D5F023E7AECD = {
+			fileRef = "33E832CDC46AD5E59D45ADF0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CE7CFD4179D623BAD25EDE98 = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2Imagine_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/objects-Debug/QuickControls2Imagine_resources_2/.qt/rcc/qrc_QuickControls2Imagine_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4AD78807526730EB8A553BF7 = {
+			fileRef = "CE7CFD4179D623BAD25EDE98";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9AF2D15DDA98D1675884CE0B = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_qtquickcontrols2imaginestyle_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Imagine_resources_3/.qt/rcc/qrc_qmake_qtquickcontrols2imaginestyle_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B3E7856DD041B57B59F069C6 = {
+			fileRef = "9AF2D15DDA98D1675884CE0B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DD7C515122FE0999CD5D63FD = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Imagine_impl_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/impl/objects-Debug/QuickControls2ImagineStyleImpl_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Imagine_impl_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		275D7E9F0CCACDB03B95E509 = {
+			fileRef = "DD7C515122FE0999CD5D63FD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BCA65286C4DC7C6A031C901A = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2ImagineStyleImpl_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/impl/objects-Debug/QuickControls2ImagineStyleImpl_resources_2/.qt/rcc/qrc_QuickControls2ImagineStyleImpl_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BA20D1026AD416C9790583B1 = {
+			fileRef = "BCA65286C4DC7C6A031C901A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9E7ECAC1D724E4F116E32F94 = {
+			isa = PBXFileReference;
+			name = "qrc_qtquickcontrols2imaginestyleimplplugin_shaders_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2ImagineStyleImpl_resources_3/.qt/rcc/qrc_qtquickcontrols2imaginestyleimplplugin_shaders_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9F3F1E9893F990114AE3E145 = {
+			fileRef = "9E7ECAC1D724E4F116E32F94";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EB8FB739B1832525F9C927A = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2imaginestyleplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/libqtquickcontrols2imaginestyleplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F2ABE54960104BD77D4C7A03 = {
+			fileRef = "7EB8FB739B1832525F9C927A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3FF4C8E231512B330BB3326C = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2Imagine";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2Imagine$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B7AE6A59FE433B73770AE989 = {
+			fileRef = "3FF4C8E231512B330BB3326C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		624FBA57EDA8AACEA61E820E = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Universal_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/objects-Debug/QuickControls2Universal_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Universal_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		99AE968322DF4A01E9ED49D4 = {
+			fileRef = "624FBA57EDA8AACEA61E820E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3D600B57B8956E6D1D6CF57F = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2Universal_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/objects-Debug/QuickControls2Universal_resources_2/.qt/rcc/qrc_QuickControls2Universal_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E02C0F68542C008036190CE4 = {
+			fileRef = "3D600B57B8956E6D1D6CF57F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2457138E1BA25403413C4C51 = {
+			isa = PBXFileReference;
+			name = "qrc_qtquickcontrols2universalstyle_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Universal_resources_3/.qt/rcc/qrc_qtquickcontrols2universalstyle_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6CE87AF22725D9A0693788BC = {
+			fileRef = "2457138E1BA25403413C4C51";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3117DE839B8389109C633F62 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Universal_impl_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/impl/objects-Debug/QuickControls2UniversalStyleImpl_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Universal_impl_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5989C0041E2E6694C5883449 = {
+			fileRef = "3117DE839B8389109C633F62";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8036D83BDA649669E8C4B362 = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2UniversalStyleImpl_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/impl/objects-Debug/QuickControls2UniversalStyleImpl_resources_2/.qt/rcc/qrc_QuickControls2UniversalStyleImpl_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		829896B34747207D428997A9 = {
+			fileRef = "8036D83BDA649669E8C4B362";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		68A50D1CE65B27C91DB64DA2 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2universalstyleplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/libqtquickcontrols2universalstyleplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		145D6028786A20DCCABB2AF8 = {
+			fileRef = "68A50D1CE65B27C91DB64DA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C38EB3380A998C4EDF8809FE = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2Universal";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2Universal$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		33CDCA4C64B41102ACF2D3C3 = {
+			fileRef = "C38EB3380A998C4EDF8809FE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CBCCAE6A4600825679A603BD = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_iOS_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/objects-Debug/qtquickcontrols2iosstyleplugin_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_iOS_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AA046A9661890F57FCCF6A88 = {
+			fileRef = "CBCCAE6A4600825679A603BD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		380E78B8CDC9488243569CF0 = {
+			isa = PBXFileReference;
+			name = "qrc_qtquickcontrols2iosstyleplugin_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/objects-Debug/qtquickcontrols2iosstyleplugin_resources_2/.qt/rcc/qrc_qtquickcontrols2iosstyleplugin_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7D6F360B74478209A80D5436 = {
+			fileRef = "380E78B8CDC9488243569CF0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		356824CF1815037452DFB8EB = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_qtquickcontrols2iosstyleplugin_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/qtquickcontrols2iosstyleplugin_resources_3/.qt/rcc/qrc_qmake_qtquickcontrols2iosstyleplugin_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		EBAD92F6C478C0218CB68C8A = {
+			fileRef = "356824CF1815037452DFB8EB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FBC56B68AF8043DC5AF1008F = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_iOS_impl_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/impl/objects-Debug/QuickControls2IOSStyleImpl_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_iOS_impl_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E642FDB65F63E831F4DD8A88 = {
+			fileRef = "FBC56B68AF8043DC5AF1008F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9C364283A87868BC4F9C9C8C = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2IOSStyleImpl_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/impl/objects-Debug/QuickControls2IOSStyleImpl_resources_2/.qt/rcc/qrc_QuickControls2IOSStyleImpl_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C8E25BCFCC1EA2180D91B22C = {
+			fileRef = "9C364283A87868BC4F9C9C8C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		769F649C18558C978753F14B = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2iosstyleplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/libqtquickcontrols2iosstyleplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		33B7A0C9B726E12A19E0E096 = {
+			fileRef = "769F649C18558C978753F14B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		264BC3F642AB32DA44EA274E = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Basic_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/objects-Debug/QuickControls2Basic_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Basic_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9DDBF6A4B0F6CBFA9185B2D2 = {
+			fileRef = "264BC3F642AB32DA44EA274E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6FE555851E966E04824405F7 = {
+			isa = PBXFileReference;
+			name = "qrc_QuickControls2Basic_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/objects-Debug/QuickControls2Basic_resources_2/.qt/rcc/qrc_QuickControls2Basic_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		47645CE1E8ACA43421251753 = {
+			fileRef = "6FE555851E966E04824405F7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10DA8B69A572BDEB32CDD05B = {
+			isa = PBXFileReference;
+			name = "qrc_qtquickcontrols2basicstyle_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Basic_resources_3/.qt/rcc/qrc_qtquickcontrols2basicstyle_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2EDCCF5B080632E0C68CFD0D = {
+			fileRef = "10DA8B69A572BDEB32CDD05B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3639A3EE9417D62F9D99D1F7 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Controls_Basic_impl_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/impl/objects-Debug/QuickControls2BasicStyleImpl_resources_1/.qt/rcc/qrc_qmake_QtQuick_Controls_Basic_impl_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E05DCA4EA9AD50684C0BE3C5 = {
+			fileRef = "3639A3EE9417D62F9D99D1F7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9E24521BD70AA5E4AC3691ED = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2basicstyleplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/libqtquickcontrols2basicstyleplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B82C3E547608D3B67ACD39B1 = {
+			fileRef = "9E24521BD70AA5E4AC3691ED";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		572539DFB2D59CB70A801977 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2Basic";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2Basic$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		69AB82C18BC83843722D64B4 = {
+			fileRef = "572539DFB2D59CB70A801977";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		38B2F6F91314217C9E266714 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9070659AEC9F27779BF579F3 = {
+			fileRef = "38B2F6F91314217C9E266714";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ECD7D0A0946936C865217C4B = {
+			isa = PBXFileReference;
+			name = "qtquicktemplates2plugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Templates/libqtquicktemplates2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A486052987018BD6F67E5A72 = {
+			fileRef = "ECD7D0A0946936C865217C4B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A0C53906B2558FEC02F9FB47 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2implplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/impl/libqtquickcontrols2implplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		151FB1C9CFE7451FF5DC65A2 = {
+			fileRef = "A0C53906B2558FEC02F9FB47";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		245CA159DEA9A1BECF3E8A43 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2fusionstyleimplplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/impl/libqtquickcontrols2fusionstyleimplplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A6A217D5FB6C799A0D06C428 = {
+			fileRef = "245CA159DEA9A1BECF3E8A43";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D5C31D10FBD8FEF9BE485A8 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2FusionStyleImpl";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2FusionStyleImpl$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C1D2698F98284A2FB2BA1C98 = {
+			fileRef = "8D5C31D10FBD8FEF9BE485A8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4A9051522D9AC631A31F07E2 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Window_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Window/objects-Debug/quickwindow_resources_1/.qt/rcc/qrc_qmake_QtQuick_Window_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9BDDB595C3725DD8ED987035 = {
+			fileRef = "4A9051522D9AC631A31F07E2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		62F2CB1299CFFF37A4134CE6 = {
+			isa = PBXFileReference;
+			name = "quickwindowplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Window/libquickwindowplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F78DDAC108BA76AA87CE2797 = {
+			fileRef = "62F2CB1299CFFF37A4134CE6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B06F7BA597F89894DE6780D7 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2materialstyleimplplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/impl/libqtquickcontrols2materialstyleimplplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8B01D738F9D974778CE2DFF3 = {
+			fileRef = "B06F7BA597F89894DE6780D7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9703A065AB5E27F20680E71C = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2MaterialStyleImpl";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2MaterialStyleImpl$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		04C1EAAEF6DF81E000DB7314 = {
+			fileRef = "9703A065AB5E27F20680E71C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		66D2AFBC627BFCDF94EA64C3 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2imaginestyleimplplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/impl/libqtquickcontrols2imaginestyleimplplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BD349DECE5A0AC5B5538F03A = {
+			fileRef = "66D2AFBC627BFCDF94EA64C3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5EFE8E60D2097C50D099E1D7 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2ImagineStyleImpl";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2ImagineStyleImpl$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		590D310C10CF65042F403A0C = {
+			fileRef = "5EFE8E60D2097C50D099E1D7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		95252F0CFA11E81CA60FEFA9 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2universalstyleimplplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/impl/libqtquickcontrols2universalstyleimplplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		829575619CED77959890CA88 = {
+			fileRef = "95252F0CFA11E81CA60FEFA9";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		245DBE484A05E1A45F92CBEF = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2UniversalStyleImpl";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2UniversalStyleImpl$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C7BF72BA93F58768039BA289 = {
+			fileRef = "245DBE484A05E1A45F92CBEF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8050227E92D1CB53AEF97530 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2iosstyleimplplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/impl/libqtquickcontrols2iosstyleimplplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E5A14A1B9CF87A08F2E98F86 = {
+			fileRef = "8050227E92D1CB53AEF97530";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		76B143C8FBBBF30FCC6427C2 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2IOSStyleImpl";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2IOSStyleImpl$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		381142EF2F75A9D1981D9ECF = {
+			fileRef = "76B143C8FBBBF30FCC6427C2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10CB6AE9F6933BE332B48B6F = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Shapes_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Shapes/objects-Debug/QuickShapesPrivate_resources_1/.qt/rcc/qrc_qmake_QtQuick_Shapes_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		19513D5C073741E3C13E731A = {
+			fileRef = "10CB6AE9F6933BE332B48B6F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		63BC05BA9CCDD6B7C6C7C202 = {
+			isa = PBXFileReference;
+			name = "qrc_qtquickshapes_shaders_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickShapesPrivate_resources_2/.qt/rcc/qrc_qtquickshapes_shaders_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		290245F84E2FAA098317300F = {
+			fileRef = "63BC05BA9CCDD6B7C6C7C202";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B4A4CA54DBBE952F41466C5D = {
+			isa = PBXFileReference;
+			name = "qmlshapesplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Shapes/libqmlshapesplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B1E9842DDF0C5FE55DFBC668 = {
+			fileRef = "B4A4CA54DBBE952F41466C5D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BAA6071F83B9A1975CD04C0 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickShapes";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickShapes$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A940B9CD8A9094D94B7DB7D4 = {
+			fileRef = "7BAA6071F83B9A1975CD04C0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7B5D2CABFC8430425F6911E5 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2basicstyleimplplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/impl/libqtquickcontrols2basicstyleimplplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		46A2EF512BF581484DBB9798 = {
+			fileRef = "7B5D2CABFC8430425F6911E5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CBF233E34D75D85488CD075 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2BasicStyleImpl";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2BasicStyleImpl$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		020DAF704E387D6342AC2A40 = {
+			fileRef = "1CBF233E34D75D85488CD075";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EC68DC3139CFD46E5FBB33B9 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickControls2Impl";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickControls2Impl$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A3DFA3C577363466A2F447DB = {
+			fileRef = "EC68DC3139CFD46E5FBB33B9";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		87985017CC52824171EC7EB2 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickTemplates2";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickTemplates2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5A69D39FE4B906D7660FCAA9 = {
+			fileRef = "87985017CC52824171EC7EB2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4406E7609CA607E8065B92D5 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_QtQuick_Layouts_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Layouts/objects-Debug/QuickLayouts_resources_1/.qt/rcc/qrc_qmake_QtQuick_Layouts_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		18D2B5AFFAE63CFCE68BDC92 = {
+			fileRef = "4406E7609CA607E8065B92D5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		19807A94ED1254D304B8043B = {
+			isa = PBXFileReference;
+			name = "qquicklayoutsplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Layouts/libqquicklayoutsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7D2B764C2478664F787838FC = {
+			fileRef = "19807A94ED1254D304B8043B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4607B6518B90C0D138108CB4 = {
+			isa = PBXFileReference;
+			name = "Qt6QuickLayouts";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QuickLayouts$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F71DE4CF73A5552F29175EAA = {
+			fileRef = "4607B6518B90C0D138108CB4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3FC6895CBFCEE863CCE780AA = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_Qt5Compat_GraphicalEffects_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/objects-Debug/qtgraphicaleffectsplugin_resources_1/.qt/rcc/qrc_qmake_Qt5Compat_GraphicalEffects_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9D3C6683E584D3963B7B2790 = {
+			fileRef = "3FC6895CBFCEE863CCE780AA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A67F3970E4EEBF795E8A4FFB = {
+			isa = PBXFileReference;
+			name = "qrc_qtgraphicaleffectsplugin_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/objects-Debug/qtgraphicaleffectsplugin_resources_2/.qt/rcc/qrc_qtgraphicaleffectsplugin_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F0CD9D75FDAAEBDDE667FAD0 = {
+			fileRef = "A67F3970E4EEBF795E8A4FFB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3B217B5887069FA874CC5900 = {
+			isa = PBXFileReference;
+			name = "qrc_qtgraphicaleffectsshaders_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/qtgraphicaleffectsplugin_resources_3/.qt/rcc/qrc_qtgraphicaleffectsshaders_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4CF01ED21AED08FEA93D9F6F = {
+			fileRef = "3B217B5887069FA874CC5900";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AFABEE2B4B0A00663C6AB207 = {
+			isa = PBXFileReference;
+			name = "qtgraphicaleffectsplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/libqtgraphicaleffectsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E607C7608BB5EBE54E50CBFC = {
+			fileRef = "AFABEE2B4B0A00663C6AB207";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5D36C144FB9E11F55404C054 = {
+			isa = PBXFileReference;
+			name = "qrc_qmake_Qt5Compat_GraphicalEffects_private_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/private/objects-Debug/qtgraphicaleffectsprivate_resources_1/.qt/rcc/qrc_qmake_Qt5Compat_GraphicalEffects_private_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6E25483D2085135146C50635 = {
+			fileRef = "5D36C144FB9E11F55404C054";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A769CB77DA48A70F6BC77D4D = {
+			isa = PBXFileReference;
+			name = "qrc_qtgraphicaleffectsprivate_raw_qml_0_init.cpp.o";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/private/objects-Debug/qtgraphicaleffectsprivate_resources_2/.qt/rcc/qrc_qtgraphicaleffectsprivate_raw_qml_0_init.cpp.o";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		81ED077879C321879BCE29F1 = {
+			fileRef = "A769CB77DA48A70F6BC77D4D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		43FEE2D03732EE0CADD2C1C4 = {
+			isa = PBXFileReference;
+			name = "qtgraphicaleffectsprivateplugin";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/private/libqtgraphicaleffectsprivateplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		64D09C8783579EF12190AC87 = {
+			fileRef = "43FEE2D03732EE0CADD2C1C4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		21E63E3AF7504440C5EE3E58 = {
+			isa = PBXFileReference;
+			name = "Qt6Quick";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6Quick$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B6295B8491BC9D1B41314F46 = {
+			fileRef = "21E63E3AF7504440C5EE3E58";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DE45B40947F48C2D3D3FD404 = {
+			isa = PBXFileReference;
+			name = "Qt6QmlModels";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QmlModels$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		12F1F1D19598A5D9FF473DEC = {
+			fileRef = "DE45B40947F48C2D3D3FD404";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		41183D69E548A12A0CE638E7 = {
+			isa = PBXFileReference;
+			name = "Qt6OpenGL";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6OpenGL$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7FA4F4BE468975EC0ADEABB1 = {
+			fileRef = "41183D69E548A12A0CE638E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		64572AABFA64EFC8B69C592A = {
+			isa = PBXFileReference;
+			name = "Qt6ShaderTools";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6ShaderTools$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7EC0EFB488ED987BEBEE4A53 = {
+			fileRef = "64572AABFA64EFC8B69C592A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		569773A1B9324C9BE7259976 = {
+			isa = PBXFileReference;
+			name = "Qt6Gui";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6Gui$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E936FE6476845061F50D4DB0 = {
+			fileRef = "569773A1B9324C9BE7259976";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A8EF9C62A8D4790CBB89CEA = {
+			isa = PBXFileReference;
+			name = "ImageIO.framework";
+			path = "/System/Library/Frameworks/ImageIO.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		61EEC397DC8556BF8C4E36A7 = {
+			fileRef = "3A8EF9C62A8D4790CBB89CEA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		088666570A1AB3D2A95C476D = {
+			isa = PBXFileReference;
+			name = "libQt6BundledHarfbuzz_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledHarfbuzz_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8F81526543390CD4C6C0D459 = {
+			fileRef = "088666570A1AB3D2A95C476D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		47FEDD5D926D89B8F711BF6A = {
+			isa = PBXFileReference;
+			name = "libQt6BundledFreetype_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledFreetype_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6E1D7116DCC751448C33323C = {
+			fileRef = "47FEDD5D926D89B8F711BF6A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5970AC73280AE7CFE831FF21 = {
+			isa = PBXFileReference;
+			name = "libQt6BundledLibpng_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledLibpng_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		225BFA2F7FC70EBE2FBB8843 = {
+			fileRef = "5970AC73280AE7CFE831FF21";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1B2543FCC48E9436F21C4F63 = {
+			isa = PBXFileReference;
+			name = "Metal.framework";
+			path = "/System/Library/Frameworks/Metal.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B3FE8FAC746D3D5BB24FA398 = {
+			fileRef = "1B2543FCC48E9436F21C4F63";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A64103EDBFC4F9F067ABBD29 = {
+			isa = PBXFileReference;
+			name = "libQt6BundledSpirv_Cross_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledSpirv_Cross_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4CAC9EF1E192B02C07C522FD = {
+			fileRef = "A64103EDBFC4F9F067ABBD29";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D3050AF9AA55FD8611266F23 = {
+			isa = PBXFileReference;
+			name = "libQt6BundledGlslang_Glslang_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledGlslang_Glslang_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5509A9ABF5D104D539BBE6B9 = {
+			fileRef = "D3050AF9AA55FD8611266F23";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D1628090812E51511B033CDD = {
+			isa = PBXFileReference;
+			name = "libQt6BundledGlslang_Spirv_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledGlslang_Spirv_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7D674A3B6EEB1FD631944555 = {
+			fileRef = "D1628090812E51511B033CDD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FB9D4A4D3DDBC50EE6EE4C01 = {
+			isa = PBXFileReference;
+			name = "libQt6BundledGlslang_Osdependent_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledGlslang_Osdependent_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		539911C2E7ED832FB4A56AA9 = {
+			fileRef = "FB9D4A4D3DDBC50EE6EE4C01";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F11088B43A70625337BAB9D5 = {
+			isa = PBXFileReference;
+			name = "libQt6BundledGlslang_Oglcompiler_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledGlslang_Oglcompiler_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		14B8486EB15A3DEFB35FFC7C = {
+			fileRef = "F11088B43A70625337BAB9D5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BF86D6A262A0ABAEC29F2E18 = {
+			isa = PBXFileReference;
+			name = "Qt6Qml";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6Qml$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		172C59F0ADA9FFD248BB73A7 = {
+			fileRef = "BF86D6A262A0ABAEC29F2E18";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D9638DAF6BC0225830067C28 = {
+			isa = PBXFileReference;
+			name = "Qt6QmlBuiltins";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6QmlBuiltins$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		CB418AA796F7CD0EA77D0ACD = {
+			fileRef = "D9638DAF6BC0225830067C28";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1EEAFB55B789F71AB31A982E = {
+			isa = PBXFileReference;
+			name = "Qt6Network";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6Network$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2D7FF5A71642349D67B10B16 = {
+			fileRef = "1EEAFB55B789F71AB31A982E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		205259EEEE2BADA5E64741E3 = {
+			isa = PBXFileReference;
+			name = "Security.framework";
+			path = "/System/Library/Frameworks/Security.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15364689D2AB5A30E87A689F = {
+			fileRef = "205259EEEE2BADA5E64741E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6809A40D11D8DEFCE1ED742 = {
+			isa = PBXFileReference;
+			name = "CFNetwork.framework";
+			path = "/System/Library/Frameworks/CFNetwork.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		AFF975DFE96ABAA5D7DD9C77 = {
+			fileRef = "C6809A40D11D8DEFCE1ED742";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FF5BDAB0076F3391B219EA52 = {
+			isa = PBXFileReference;
+			name = "SystemConfiguration.framework";
+			path = "/System/Library/Frameworks/SystemConfiguration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		D4639595C3BCF2A39D88DF6E = {
+			fileRef = "FF5BDAB0076F3391B219EA52";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		931B9F1C6086CB5FEA377466 = {
+			isa = PBXFileReference;
+			name = "Qt6Core";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6Core$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F556509A7C767BE0D4AD44E0 = {
+			fileRef = "931B9F1C6086CB5FEA377466";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1A67BEAA744704B29168D39 = {
+			isa = PBXFileReference;
+			name = "IOKit.framework";
+			path = "/System/Library/Frameworks/IOKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8D267F2E4776F0ECA2F49DC8 = {
+			fileRef = "A1A67BEAA744704B29168D39";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5DF65EEF663052146503DCF7 = {
+			isa = PBXFileReference;
+			name = "libQt6BundledPcre2_debug.a";
+			path = "/Users/dm_sfr/Qt/6.7.1/ios/lib/libQt6BundledPcre2_debug.a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		927A83D0B0E6F61D2AFCC284 = {
+			fileRef = "5DF65EEF663052146503DCF7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"CFD1D6B0948E6FE268FC0B58",
+				"278A204471EA08771E8CFD1A",
+				"9CD2F776D49F84809BEB886E",
+				"3C44131FDCFEF4396B9EA2BA",
+				"7EC00404ACD5AB0E97726B0E",
+				"5F9A4B2B3FF5EC87C57CF6B4",
+				"BD5FCA7D802D96BED4D98BB2",
+				"773F9466C10A52E589AA8CF9",
+				"CDCA4AF8CA2ABB2B21AE713A",
+				"EE34D56E20EE9D3D4ADED5D0",
+				"E2798658B8E3A24ED1C17124",
+				"61F205CB625B18F58A43F62E",
+				"750CD29EC84FD7D85EE8C777",
+				"EED8E3BAAB19C470ECD5746D",
+				"D9FCA98AE20281919A64BB3A",
+				"9253D6251E1D7890E034A5F2",
+				"042622BA7ED1BDBD7D2AF59A",
+				"0FAE0CE8BE1E8BE2D2E90ADF",
+				"E5EE46EBC567E8D3B0008091",
+				"246CDB156A4D76D8A8CD3BAC",
+				"A14FC8A0354969AB691F8137",
+				"4DFEC7CE9DEE05C2064CE06E",
+				"6CEEB80F7D627ED8E9519B84",
+				"F0068236FD3571EC9B9A1277",
+				"177B481494CA06C98DFD5E77",
+				"B867B3BFFE135A5FC4850E64",
+				"A89A6682CAFE5F6D6AF3AACF",
+				"D100B815753F11DF4974173E",
+				"568038472A63EF965F50BCF8",
+				"215F00EB68BC70BB4B1BB0BD",
+				"DFC6BFEBFB0C98B057634DD4",
+				"A0F64270133012236013E788",
+				"F6802379485C56D1E0ACFFD8",
+				"9902672FE11C127770490388",
+				"9FC6AAE511C680BD5D19AD3E",
+				"6A3EECEEAFC188B8E3DB6C13",
+				"0011EEBF66D775C6C1BCA323",
+				"C100AC9A3392C50DB1D6D826",
+				"E1C17273A60B33081BC1C3CD",
+				"EFEF2AFAA2AD2E483A2BFB96",
+				"222428561AE1DA707D89C101",
+				"A1075E503D4433BAF6BAB1D0",
+				"608593C254344176B159EFC6",
+				"7EB558E8F80726D3DE108047",
+				"22BDAF82AAEF9F4CDA08CC77",
+				"D6C59ADC67150579A3CBF618",
+				"A719385A9AC165154E5C2EC8",
+				"2D94D17FF6FFA9A44A225A90",
+				"D420B130B6B285B240E24875",
+				"6102D9788FD80CF2453B88D1",
+				"4EDD4A555396AFDF703DD0E1",
+				"2261DE4B10C2FFF18CAAAEF2",
+				"65E11CEEE0341858D551044B",
+				"8F3F51F9369FE8E3555B6ED4",
+				"91AFE63FDCF8FE9B59743207",
+				"07D88891CBAF70198B9EA101",
+				"6DB33CD186FB1D99F3C90673",
+				"637EBB7A5A48197983925771",
+				"12C80C9656EC453A56142679",
+				"8FE963F22529136AAAAFB0E2",
+				"DCA45B801679225A29B2F1A5",
+				"AFD3F209762077058CC923F8",
+				"8DA3FE04656C71C0C7924FC4",
+				"45F5583184DCB971A7EF30B1",
+				"CC16D0EFB8AC172CBE0D376E",
+				"0C82B3771AF362B31C2A22C3",
+				"3252BE552F3A692107B9931F",
+				"4E8B9E508E30E769051FABBE",
+				"C25C61506058FFA86DDBD8CE",
+				"776CB358EBC14BA62D48B983",
+				"7BAC80A0355FFE14468D98E9",
+				"1AEECD5ECA677EFFB5AF9D10",
+				"E48AB072A4A1F672184ACB1F",
+				"B5CE97BC0697EBC1EA9773BF",
+				"51939CCA95EFC6881A5693B6",
+				"30078A1D88C58126EA88DC22",
+				"2CFF052C67133E879BE3D667",
+				"066A9869FBA6BC6E2C8BCD95",
+				"33E832CDC46AD5E59D45ADF0",
+				"CE7CFD4179D623BAD25EDE98",
+				"9AF2D15DDA98D1675884CE0B",
+				"DD7C515122FE0999CD5D63FD",
+				"BCA65286C4DC7C6A031C901A",
+				"9E7ECAC1D724E4F116E32F94",
+				"7EB8FB739B1832525F9C927A",
+				"3FF4C8E231512B330BB3326C",
+				"624FBA57EDA8AACEA61E820E",
+				"3D600B57B8956E6D1D6CF57F",
+				"2457138E1BA25403413C4C51",
+				"3117DE839B8389109C633F62",
+				"8036D83BDA649669E8C4B362",
+				"68A50D1CE65B27C91DB64DA2",
+				"C38EB3380A998C4EDF8809FE",
+				"CBCCAE6A4600825679A603BD",
+				"380E78B8CDC9488243569CF0",
+				"356824CF1815037452DFB8EB",
+				"FBC56B68AF8043DC5AF1008F",
+				"9C364283A87868BC4F9C9C8C",
+				"769F649C18558C978753F14B",
+				"264BC3F642AB32DA44EA274E",
+				"6FE555851E966E04824405F7",
+				"10DA8B69A572BDEB32CDD05B",
+				"3639A3EE9417D62F9D99D1F7",
+				"9E24521BD70AA5E4AC3691ED",
+				"572539DFB2D59CB70A801977",
+				"38B2F6F91314217C9E266714",
+				"ECD7D0A0946936C865217C4B",
+				"A0C53906B2558FEC02F9FB47",
+				"245CA159DEA9A1BECF3E8A43",
+				"8D5C31D10FBD8FEF9BE485A8",
+				"4A9051522D9AC631A31F07E2",
+				"62F2CB1299CFFF37A4134CE6",
+				"B06F7BA597F89894DE6780D7",
+				"9703A065AB5E27F20680E71C",
+				"66D2AFBC627BFCDF94EA64C3",
+				"5EFE8E60D2097C50D099E1D7",
+				"95252F0CFA11E81CA60FEFA9",
+				"245DBE484A05E1A45F92CBEF",
+				"8050227E92D1CB53AEF97530",
+				"76B143C8FBBBF30FCC6427C2",
+				"10CB6AE9F6933BE332B48B6F",
+				"63BC05BA9CCDD6B7C6C7C202",
+				"B4A4CA54DBBE952F41466C5D",
+				"7BAA6071F83B9A1975CD04C0",
+				"7B5D2CABFC8430425F6911E5",
+				"1CBF233E34D75D85488CD075",
+				"EC68DC3139CFD46E5FBB33B9",
+				"87985017CC52824171EC7EB2",
+				"4406E7609CA607E8065B92D5",
+				"19807A94ED1254D304B8043B",
+				"4607B6518B90C0D138108CB4",
+				"3FC6895CBFCEE863CCE780AA",
+				"A67F3970E4EEBF795E8A4FFB",
+				"3B217B5887069FA874CC5900",
+				"AFABEE2B4B0A00663C6AB207",
+				"5D36C144FB9E11F55404C054",
+				"A769CB77DA48A70F6BC77D4D",
+				"43FEE2D03732EE0CADD2C1C4",
+				"21E63E3AF7504440C5EE3E58",
+				"DE45B40947F48C2D3D3FD404",
+				"41183D69E548A12A0CE638E7",
+				"64572AABFA64EFC8B69C592A",
+				"569773A1B9324C9BE7259976",
+				"3A8EF9C62A8D4790CBB89CEA",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"088666570A1AB3D2A95C476D",
+				"7D7B02101166B76FD2D4F8B4",
+				"47FEDD5D926D89B8F711BF6A",
+				"5970AC73280AE7CFE831FF21",
+				"1B2543FCC48E9436F21C4F63",
+				"A64103EDBFC4F9F067ABBD29",
+				"D3050AF9AA55FD8611266F23",
+				"D1628090812E51511B033CDD",
+				"FB9D4A4D3DDBC50EE6EE4C01",
+				"F11088B43A70625337BAB9D5",
+				"BF86D6A262A0ABAEC29F2E18",
+				"D9638DAF6BC0225830067C28",
+				"1EEAFB55B789F71AB31A982E",
+				"205259EEEE2BADA5E64741E3",
+				"C6809A40D11D8DEFCE1ED742",
+				"FF5BDAB0076F3391B219EA52",
+				"931B9F1C6086CB5FEA377466",
+				"A1A67BEAA744704B29168D39",
+				"4D765E1B1EA6C757220C63E7",
+				"FCC237CA5AD60B9BA4447615",
+				"5DF65EEF663052146503DCF7");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"7E85C5C75D1C69E5EACEF0D2",
+				"DC587DBCBED6A7256F7B8C76",
+				"F3B7475E5E87E96763126FF0",
+				"4EB68D0C8182BCE33529C421",
+				"B460F624007324313696BE86",
+				"F30795E5207D73289814C47C",
+				"608694C2F85C903B08FF61AE",
+				"736E5A58FD0916961D396119",
+				"2A47954A44F8273498F4F80F",
+				"309B1F6EB1D13CA6EC64C069",
+				"5F756ED577065D24347E59EE",
+				"BEC8A871CECA2E707811A34A",
+				"BF711C2F4BAAA6118BB7DE47",
+				"BA5ED6E1C1E48263F72B163B",
+				"6D62060DABB90ADDAF3E03FD",
+				"FE2F4688797B58103C6F80D1",
+				"C92A7D79F686F197D27F7921",
+				"0431F0D281439D564A357684",
+				"B25B7B8828744079F581F803",
+				"E2682DCDBD115C37C75ACD9D",
+				"698A27566DA573772C768FC6",
+				"981DA83DB58626422C5D5209",
+				"7EA309943B2938E417A61690",
+				"452D0EBA9C617BB248590572",
+				"562F32671D5A2956869FA007",
+				"1B715F33DE3CB12129F55FA4",
+				"04F2C397E61A1714CBDCD701",
+				"F06EA3360ECFBB1E61E3D8DA",
+				"C0323534BF872EC6779CD114",
+				"D6A69B1FC713F3163B517B6A",
+				"B5CA182A1C694C0616BBDD50",
+				"A15B95E3E02BEEB13E8B71B6",
+				"1BB1D1CE8BB16AB0D7CDE619",
+				"B25A2FA04CCC315831A5CF72",
+				"1C9A0455CB567D809294488A",
+				"8989B2490601DD0AB5B3DF8F",
+				"27BD011D2DAAA7A0207C5A6E",
+				"5AB629A7726DA67660123DAA",
+				"5E864F54862ABD7A57E4F3E1",
+				"A18BAE63AE63A907399ADA37",
+				"626A91A4EB986B9970A29430",
+				"905E5F4E702F7DAF3A7A6DAE",
+				"31F3955D3B301AA0C2F4834D",
+				"0A7FE4521BA85B7760DA649F",
+				"8DC1C2E217DC576938AE2EC5",
+				"7D99EEF371EF6E7920C5E634",
+				"06682E122B016A9EA4FAF236",
+				"636D63EA9D105E0033564824",
+				"8F540FDACD5046E1116DFE7E",
+				"E82B6824DBAF8C5688E8989B",
+				"F880B9611CDC7F7C150AFF93",
+				"5F2F1F453865F601C850A765",
+				"A4AE72D9D0EEA975D1888539",
+				"25F4FEFBF0815DF9182ECA3D",
+				"F38D0AF5475F70DCB013B226",
+				"0B7D9BF804963B1AB7EB01A0",
+				"3C60B20A20E8F7B9729286ED",
+				"49C14751A90C91F51603855C",
+				"0C982E6BEC5932D20EA38342",
+				"B0E47FE3772D5CF6FFC0E62C",
+				"3F4D6B886DB150CFAF3FB3EA",
+				"C7D7144EA1F30EB917BE8ADE",
+				"DAFE62B0EAE1C99CDB5BEE73",
+				"CF631DA8DA0F9B769216D7D6",
+				"7CD5FD1FE6B227A5CFD63FFC",
+				"18B52822538141E125807279",
+				"3C317EE07BA833EC61643859",
+				"7C29B7D25A7B1F8B485794CC",
+				"1DDBAA1677DD2B8E615D1DD9",
+				"DE5EA6D84CBD4ABA62D6B876",
+				"483FC984D9F61A616464B39E",
+				"C0B49FC61C485BA63CDD252F",
+				"5F80F974D138FCA90B195269",
+				"2BC9A5CC119D3CEDA2639E95",
+				"927C43937BBC4486FE169B50",
+				"D5746570F361EA2BA2ECA6A0",
+				"D09440FB3BF5A30C3B8724AB",
+				"DEEBEF93EA38A1265BB1F6FD",
+				"17DD41DE01C9D5F023E7AECD",
+				"4AD78807526730EB8A553BF7",
+				"B3E7856DD041B57B59F069C6",
+				"275D7E9F0CCACDB03B95E509",
+				"BA20D1026AD416C9790583B1",
+				"9F3F1E9893F990114AE3E145",
+				"F2ABE54960104BD77D4C7A03",
+				"B7AE6A59FE433B73770AE989",
+				"99AE968322DF4A01E9ED49D4",
+				"E02C0F68542C008036190CE4",
+				"6CE87AF22725D9A0693788BC",
+				"5989C0041E2E6694C5883449",
+				"829896B34747207D428997A9",
+				"145D6028786A20DCCABB2AF8",
+				"33CDCA4C64B41102ACF2D3C3",
+				"AA046A9661890F57FCCF6A88",
+				"7D6F360B74478209A80D5436",
+				"EBAD92F6C478C0218CB68C8A",
+				"E642FDB65F63E831F4DD8A88",
+				"C8E25BCFCC1EA2180D91B22C",
+				"33B7A0C9B726E12A19E0E096",
+				"9DDBF6A4B0F6CBFA9185B2D2",
+				"47645CE1E8ACA43421251753",
+				"2EDCCF5B080632E0C68CFD0D",
+				"E05DCA4EA9AD50684C0BE3C5",
+				"B82C3E547608D3B67ACD39B1",
+				"69AB82C18BC83843722D64B4",
+				"9070659AEC9F27779BF579F3",
+				"A486052987018BD6F67E5A72",
+				"151FB1C9CFE7451FF5DC65A2",
+				"A6A217D5FB6C799A0D06C428",
+				"C1D2698F98284A2FB2BA1C98",
+				"9BDDB595C3725DD8ED987035",
+				"F78DDAC108BA76AA87CE2797",
+				"8B01D738F9D974778CE2DFF3",
+				"04C1EAAEF6DF81E000DB7314",
+				"BD349DECE5A0AC5B5538F03A",
+				"590D310C10CF65042F403A0C",
+				"829575619CED77959890CA88",
+				"C7BF72BA93F58768039BA289",
+				"E5A14A1B9CF87A08F2E98F86",
+				"381142EF2F75A9D1981D9ECF",
+				"19513D5C073741E3C13E731A",
+				"290245F84E2FAA098317300F",
+				"B1E9842DDF0C5FE55DFBC668",
+				"A940B9CD8A9094D94B7DB7D4",
+				"46A2EF512BF581484DBB9798",
+				"020DAF704E387D6342AC2A40",
+				"A3DFA3C577363466A2F447DB",
+				"5A69D39FE4B906D7660FCAA9",
+				"18D2B5AFFAE63CFCE68BDC92",
+				"7D2B764C2478664F787838FC",
+				"F71DE4CF73A5552F29175EAA",
+				"9D3C6683E584D3963B7B2790",
+				"F0CD9D75FDAAEBDDE667FAD0",
+				"4CF01ED21AED08FEA93D9F6F",
+				"E607C7608BB5EBE54E50CBFC",
+				"6E25483D2085135146C50635",
+				"81ED077879C321879BCE29F1",
+				"64D09C8783579EF12190AC87",
+				"B6295B8491BC9D1B41314F46",
+				"12F1F1D19598A5D9FF473DEC",
+				"7FA4F4BE468975EC0ADEABB1",
+				"7EC0EFB488ED987BEBEE4A53",
+				"E936FE6476845061F50D4DB0",
+				"61EEC397DC8556BF8C4E36A7",
+				"0CE02722F00CAD43741297B5",
+				"8F81526543390CD4C6C0D459",
+				"2B02D9DC58A01E45248DDBCE",
+				"6E1D7116DCC751448C33323C",
+				"225BFA2F7FC70EBE2FBB8843",
+				"B3FE8FAC746D3D5BB24FA398",
+				"4CAC9EF1E192B02C07C522FD",
+				"5509A9ABF5D104D539BBE6B9",
+				"7D674A3B6EEB1FD631944555",
+				"539911C2E7ED832FB4A56AA9",
+				"14B8486EB15A3DEFB35FFC7C",
+				"172C59F0ADA9FFD248BB73A7",
+				"CB418AA796F7CD0EA77D0ACD",
+				"2D7FF5A71642349D67B10B16",
+				"15364689D2AB5A30E87A689F",
+				"AFF975DFE96ABAA5D7DD9C77",
+				"D4639595C3BCF2A39D88DF6E",
+				"F556509A7C767BE0D4AD44E0",
+				"8D267F2E4776F0ECA2F49DC8",
+				"F8B465CE34D8DF87AAE95913",
+				"F26454630C80841CBDCFE1CA",
+				"927A83D0B0E6F61D2AFCC284");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		42D444A5308218F378812BC2 = {
+			isa = PBXFileReference;
+			path = "/Users/dm_sfr/Desktop/project/LampApp/build/Qt_6_7_1_for_iOS_3de58a-Debug/LampApp.xcodeproj/LaunchScreen.storyboard";
+			name = "LaunchScreen.storyboard";
+			sourceTree = "<absolute>";
+		};
+		AD5AEB0706F80D4DE1EB87C2 = {
+			fileRef = "42D444A5308218F378812BC2";
+			isa = PBXBuildFile;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"42D444A5308218F378812BC2");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				"AD5AEB0706F80D4DE1EB87C2");
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		99542592E9780B9225F24AA8 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873A0C9C0B20353A5413E480 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "LampApp.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"873A0C9C0B20353A5413E480");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"87DF60DE337FB58864343E39",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "LampApp";
+			sourceTree = "<group>";
+		};
+		F23FC2C8FB43655934939C2D = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		438173B743CD4DC01C0EFE69 = {
+			isa = PBXTargetDependency;
+			target = "F23FC2C8FB43655934939C2D";
+		};
+		82DDC9D21ECEB659F9ECD607 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508",
+				"99542592E9780B9225F24AA8");
+			dependencies = (
+				"438173B743CD4DC01C0EFE69");
+			productReference = "873A0C9C0B20353A5413E480";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "LampApp";
+			productName = "LampApp";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "project.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "LampApp";
+				QMAKE_FULL_VERSION = "1.0.0";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "$(PROJECT_DIR)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "14.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../../../LampApp",
+					".",
+					"/Users/dm_sfr/Qt/6.7.1/ios/mkspecs/common/uikit",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQuickWidgets",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQuick",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtOpenGL",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtWidgets",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtGui",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQmlModels",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQml",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtNetwork",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQmlIntegration",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtConcurrent",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtCore",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQmlBuiltins",
+					".",
+					"/Users/dm_sfr/Qt/6.7.1/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Gui_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Gui_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/iconengines",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/imageformats",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Base/objects-Debug/Qml_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Qml_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/objects-Debug/Quick_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_4/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_5/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_6/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_7/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_8/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_9/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_10/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Models/objects-Debug/QmlModels_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/networkinformation",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/tls",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_4/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/objects-Debug/QmlMeta_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Base",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Models",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/WorkerScript/objects-Debug/QmlWorkerScript_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/WorkerScript",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/qtquickcontrols2plugin_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/impl/objects-Debug/QuickControls2Impl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/objects-Debug/QuickControls2_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Templates/objects-Debug/QuickTemplates2_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/objects-Debug/QuickControls2Fusion_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/objects-Debug/QuickControls2Fusion_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Fusion_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/impl/objects-Debug/QuickControls2FusionStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/impl/objects-Debug/QuickControls2FusionStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/objects-Debug/QuickControls2Material_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/objects-Debug/QuickControls2Material_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Material_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Material_resources_4/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/impl/objects-Debug/QuickControls2MaterialStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/impl/objects-Debug/QuickControls2MaterialStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/objects-Debug/QuickControls2Imagine_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/objects-Debug/QuickControls2Imagine_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Imagine_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/impl/objects-Debug/QuickControls2ImagineStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/impl/objects-Debug/QuickControls2ImagineStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2ImagineStyleImpl_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/objects-Debug/QuickControls2Universal_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/objects-Debug/QuickControls2Universal_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Universal_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/impl/objects-Debug/QuickControls2UniversalStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/impl/objects-Debug/QuickControls2UniversalStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/objects-Debug/qtquickcontrols2iosstyleplugin_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/objects-Debug/qtquickcontrols2iosstyleplugin_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/qtquickcontrols2iosstyleplugin_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/impl/objects-Debug/QuickControls2IOSStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/impl/objects-Debug/QuickControls2IOSStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/objects-Debug/QuickControls2Basic_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/objects-Debug/QuickControls2Basic_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Basic_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/impl/objects-Debug/QuickControls2BasicStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Templates",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Window/objects-Debug/quickwindow_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Window",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Shapes/objects-Debug/QuickShapesPrivate_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickShapesPrivate_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Shapes",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Layouts/objects-Debug/QuickLayouts_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Layouts",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/objects-Debug/qtgraphicaleffectsplugin_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/objects-Debug/qtgraphicaleffectsplugin_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/qtgraphicaleffectsplugin_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/private/objects-Debug/qtgraphicaleffectsprivate_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/private/objects-Debug/qtgraphicaleffectsprivate_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/private");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-Wextra",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKWIDGETS_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QMLMODELS_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_QMLINTEGRATION_LIB",
+					"-DQT_CONCURRENT_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_QMLBUILTINS_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKWIDGETS_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QMLMODELS_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_QMLINTEGRATION_LIB",
+					"-DQT_CONCURRENT_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_QMLBUILTINS_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-framework",
+						"AssetsLibrary",
+						"-lz",
+						"-lm",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"OpenGLES",
+						"-Wl,-e,_qt_main_wrapper");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "project.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "LampApp";
+				QMAKE_FULL_VERSION = "1.0.0";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "LampApp";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "project.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "LampApp";
+				QMAKE_FULL_VERSION = "1.0.0";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "$(PROJECT_DIR)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "14.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../../../LampApp",
+					".",
+					"/Users/dm_sfr/Qt/6.7.1/ios/mkspecs/common/uikit",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQuickWidgets",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQuick",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtOpenGL",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtWidgets",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtGui",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQmlModels",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQml",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtNetwork",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQmlIntegration",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtConcurrent",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtCore",
+					"/Users/dm_sfr/Qt/6.7.1/ios/include/QtQmlBuiltins",
+					".",
+					"/Users/dm_sfr/Qt/6.7.1/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Gui_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Gui_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/iconengines",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/imageformats",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Base/objects-Debug/Qml_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Qml_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/qmltooling",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/objects-Debug/Quick_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_4/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_5/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_6/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_7/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_8/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_9/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Quick_resources_10/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Models/objects-Debug/QmlModels_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/networkinformation",
+					"/Users/dm_sfr/Qt/6.7.1/ios/plugins/tls",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/Widgets_resources_4/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/objects-Debug/QmlMeta_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Base",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/Models",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/WorkerScript/objects-Debug/QmlWorkerScript_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQml/WorkerScript",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/qtquickcontrols2plugin_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/impl/objects-Debug/QuickControls2Impl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/objects-Debug/QuickControls2_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Templates/objects-Debug/QuickTemplates2_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/objects-Debug/QuickControls2Fusion_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/objects-Debug/QuickControls2Fusion_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Fusion_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/impl/objects-Debug/QuickControls2FusionStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/impl/objects-Debug/QuickControls2FusionStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/objects-Debug/QuickControls2Material_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/objects-Debug/QuickControls2Material_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Material_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Material_resources_4/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/impl/objects-Debug/QuickControls2MaterialStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/impl/objects-Debug/QuickControls2MaterialStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/objects-Debug/QuickControls2Imagine_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/objects-Debug/QuickControls2Imagine_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Imagine_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/impl/objects-Debug/QuickControls2ImagineStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/impl/objects-Debug/QuickControls2ImagineStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2ImagineStyleImpl_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/objects-Debug/QuickControls2Universal_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/objects-Debug/QuickControls2Universal_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Universal_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/impl/objects-Debug/QuickControls2UniversalStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/impl/objects-Debug/QuickControls2UniversalStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/objects-Debug/qtquickcontrols2iosstyleplugin_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/objects-Debug/qtquickcontrols2iosstyleplugin_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/qtquickcontrols2iosstyleplugin_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/impl/objects-Debug/QuickControls2IOSStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/impl/objects-Debug/QuickControls2IOSStyleImpl_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/objects-Debug/QuickControls2Basic_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/objects-Debug/QuickControls2Basic_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickControls2Basic_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/impl/objects-Debug/QuickControls2BasicStyleImpl_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Templates",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Fusion/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Window/objects-Debug/quickwindow_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Window",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Material/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Imagine/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Universal/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/iOS/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Shapes/objects-Debug/QuickShapesPrivate_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/QuickShapesPrivate_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Shapes",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Controls/Basic/impl",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Layouts/objects-Debug/QuickLayouts_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/QtQuick/Layouts",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/objects-Debug/qtgraphicaleffectsplugin_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/objects-Debug/qtgraphicaleffectsplugin_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/lib/objects-Debug/qtgraphicaleffectsplugin_resources_3/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/private/objects-Debug/qtgraphicaleffectsprivate_resources_1/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/private/objects-Debug/qtgraphicaleffectsprivate_resources_2/.qt/rcc",
+					"/Users/dm_sfr/Qt/6.7.1/ios/qml/Qt5Compat/GraphicalEffects/private");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-Wextra",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKWIDGETS_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QMLMODELS_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_QMLINTEGRATION_LIB",
+					"-DQT_CONCURRENT_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_QMLBUILTINS_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-g",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_QML_DEBUG",
+					"-DQT_QUICKWIDGETS_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QMLMODELS_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_QMLINTEGRATION_LIB",
+					"-DQT_CONCURRENT_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_QMLBUILTINS_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-framework",
+						"AssetsLibrary",
+						"-lz",
+						"-lm",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"OpenGLES",
+						"-Wl,-e,_qt_main_wrapper");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "project.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "LampApp";
+				QMAKE_FULL_VERSION = "1.0.0";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator17.5.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "LampApp";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"82DDC9D21ECEB659F9ECD607",
+				"F23FC2C8FB43655934939C2D");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}
